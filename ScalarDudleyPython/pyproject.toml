@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scalardudleypython"
+version = "0.1.0"
+description = ""
+authors = ["esteban_laptop_exotic <raulest50@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.3.4"
+matplotlib = "^3.10.7"
+scipy = "^1.16.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
